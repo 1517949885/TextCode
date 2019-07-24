@@ -23,8 +23,13 @@ if [ 5 -gt 6 ];then
 else
   echo no
 fi
-if[ - ];then
+if [ str =  "" ];then
  echo yes
 else
  echo no
+fi
+if [ -z $a ];then
+  echo yes
+else
+  echo no
 fi
